@@ -1,0 +1,191 @@
+
+body {
+
+/* BACKGROUND IMAGE */
+    background: url(../images/hero_web.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 70%;
+    background-position-y: 75px ;
+    
+    background-color: paleturquoise;
+  }
+
+.mySkills {
+    background-color: #FCDBD5;
+    width: 100%;
+}
+
+h1 {
+    font-family: utopia-std-headline,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: darkslategray;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,700;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1,400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0.400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+p2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0.400;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: 0%;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top right;
+    padding: 15px;
+    
+}
+
+.logo {
+    width: 23%;
+    padding-top: 5px;
+    text-align: center;
+    color:darkslategray;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
+    font-size: 18px;
+    color: Black;
+    width: 73%;
+}
+
+
+section .heroImg {
+    height: 600px;
+    padding: 25px;
+    margin-top: 20px;
+    
+}
+
+button {
+    padding: 15px 60px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    border-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
+    align-items:center
+}
+.content {
+    width: 300px;
+    margin-left: auto;
+    align:right;
+    padding: 15px;
+}
+.navigation {
+    background-color: white;
+    box-shadow:3px 5px 13px lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+<!--  My UX Skills section coded using CSS flex -->
+.mySkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexContainer img {
+    width: 100px;
+    justify-content: center;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexContainer div {
+    width: 30%;
+    margin: 25px;
+    padding: 5px;
+}
+
+.myWork {
+    background-color: #E96C6D;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E96C6D;
+    padding: 10px;
+}
+
+.workGrid div img {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.workGrid div h2 p {
+    font-size: 16px;
+    grid-template-rows: 50% 50%;
+    padding: 40px;
+    margin: 40px;
+ 
+}
+
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
+    font-size: 18px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
+    background-size: 1%;
+    color: black;
+
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+
+}
