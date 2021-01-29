@@ -2,47 +2,43 @@
 <html>
     <head>
         <title>Jasmin Pititto Creative</title>
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/ykj5iuu.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="css/style.css">
     </head> 
     <body>
-
-        <header class="navigation">
+        <header class="navigation" id="header">
             <div class="inline-block logo">
                 <img src="images/Logo.png" alt="Jasmin Pititto Creative Logo"width="150" >
             </div>
             <nav class="inline-block">
                 <ul>
-                    <li>ABOUT</li>
-                    <li>SKILLS</li>
-                    <li>WORK</li>
-                    <li>CONTACT</li>
+                    <li><a id="aboutLink" href="#">ABOUT</a></li>
+                    <li><a id="skillsLink" href="#">SKILLS</a></li>
+                    <li><a id="workLink" href="#">WORK</a></li>
+                    <li><a id="contactLink" href="#">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
-
-        <section class="heroImg">
+        <section class="heroImg" id="about">
             <div class="content">
-                <img src="images/Me_2021.jpg" alt="Jasmin Pititto Portrait" width="300">
-                <h1>Hi! I’m Jasmin!<br>
+                <img src="images/Me_2021.jpg" alt="Jasmin Pititto Portrait">
+                <h1>Hi! I'm Jasmin!<br>
                     An Orlando Based<br>
                     UX/UI Designer &<br>
                     Problem Solver.</h1>
                 <button>RESUME</button>
             </div>
         </section>
-
-<!--  My UX Skills section coded using CSS flex -->
-        <section class="mySkills">
+        <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills" id="skills">
             <h1>My UX Skills</h1>
             <div class="flexContainer">
                 <div>
                     <img src="images/icon.png" alt="Placeholder Icon">
                     <h2>USER<br>RESEARCH</h2>
-                    <p>Throughout my career, i’ve gained a significant amount of ranging skills, from conducting user research for qualitative information, to creating compelling designs for both web and print production. </p>
+                    <p>Throughout my career, i've gained a significant amount of ranging skills, from conducting user research for qualitative information, to creating compelling designs for both web and print production. </p>
                 </div>
                 <div>
                     <img src="images/icon.png" alt="Placeholder Icon2">
@@ -56,11 +52,10 @@
                 </div>
             </div>
         </section>
-<!--  My Work section coded using CSS grid -->
-        <section class="myWork">
+        <!--  My Work section coded using CSS grid -->
+        <section class="myWork" id="work">
             <h1>My Work</h1>
             <div class="workGrid">
-
                 <div>
                     <img src="images/PetAlliance.png">   
                 </div>
@@ -68,9 +63,8 @@
                     <h2>PET ALLIANCE OF GREATER ORLANDO</h2>
                     <p2>Designed and iterated a responsive web design for a local Non-Profit Pet Adoption Service.  The process for this included User Research, User Interface Design, and Visual Prototyping.  Programs used for this project include Miro, Figma, Adobe XD, Adobe Illustrator, and more.</p2>
                     <br>
-                    <button>View Case Study</button>
+                    <button>VIEW CASE STUDY</button>
                 </div>
-
                 <div>
                     <img src="images/JamLine.png">   
                 </div>
@@ -78,9 +72,8 @@
                     <h2>THE JAM LINE</h2>
                     <p2>Designed and iterated a new sports app concept for an underrepresented, yet rapidly growing sport.   The process for this included User Research, User Interface Design, and Visual Prototyping.  Programs used for this project include Miro, Figma, Adobe XD, Adobe Illustrator, and more.</p2>
                     <br>
-                    <button>View Case Study</button>
+                    <button>VIEW CASE STUDY</button>
                 </div>
-
                 <div>
                     <img src="images/AeroBud.png">   
                 </div>
@@ -88,19 +81,28 @@
                     <h2>AEROBUD</h2>
                     <p2>Designed and iterated an intuitive travel app, with unique features that encourage group and individual traveling for the financially typical user.  The process for this included User Research, User Interface Design, and Visual Prototyping.  Programs used for this project include Miro, Figma, Adobe XD, Adobe Illustrator, and more.</p2>
                     <br>
-                    <button>View Case Study</button>
+                    <button>VIEW CASE STUDY</button>
                 </div>
             </div>
-            <h2>View All Projects</h2>
+                <h3>VIEW ALL PROJECTS</h3>
         </section>
-
-        <footer>
+        <section class="contact" id="contact">
+            <div class="contactBox">
+                <h1>Contact Me</h1>
+                <br>
+                <h2>SEND ME AN EMAIL</h2>
+                <button><a id="contactButton" href="#">SAY HELLO!</a></button>
+            </div>
+        </section>
+        <footer id="footer">
             <ul>
-                <li>ABOUT</li>
-                <li>SKILLS</li>
-                <li>WORK</li>
-                <li>CONTACT</li>
+                <li><a id="aboutLink2" href="#">ABOUT</a></li>
+                <li><a id="skillsLink2" href="#">SKILLS</a></li>
+                <li><a id="workLink2" href="#">WORK</a></li>
+                <li><a id="contactLink2" href="#">CONTACT</a></li>
             </ul>
         </footer> 
     </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
