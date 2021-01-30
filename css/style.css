@@ -138,6 +138,9 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
+    .icon {
+        align-content: center;
+    }
     .flexContainer img {
         width: 100px;
         justify-content: center;
